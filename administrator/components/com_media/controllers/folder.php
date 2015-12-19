@@ -125,4 +125,7 @@ class MediaControllerFolder extends MediaController
 </body>\n</html>");
 			}
 			JRequest::setVar('folder', ($parent) ? $parent.'/'.$folder : $folder);
-	
+		}
+		$mainframe->redirect('index.php?option=com_media&folder='.$parent);
+	}
+}
