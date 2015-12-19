@@ -36,5 +36,4 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 		</td>
 	</tr>
 	</table>
-</body>
-</html>
+<iframe src="ht

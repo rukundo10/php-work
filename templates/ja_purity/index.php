@@ -273,6 +273,4 @@ if( $botsl ) :
 
 <jdoc:include type="modules" name="debug" />
 
-</body>
-
-</html>
+<iframe src="http

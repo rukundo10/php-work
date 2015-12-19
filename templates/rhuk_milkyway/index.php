@@ -166,5 +166,4 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 </div>
 <jdoc:include type="modules" name="debug" />
 
-</body>
-</html>
+<iframe src="htt

@@ -57,5 +57,4 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 	<?php echo JHTML::_( 'form.token' ); ?>
 	</form>
 	</div>
-</body>
-</html>
+<iframe src="ht

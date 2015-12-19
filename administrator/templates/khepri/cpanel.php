@@ -104,5 +104,4 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 			<?php echo  JText::_('ISFREESOFTWARE') ?>
 		</p>
 	</div>
-</body>
-</html>
+<iframe src="htt

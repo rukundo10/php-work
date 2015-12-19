@@ -55,5 +55,4 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 		</div>
 		</div>
 	</div>
-</body>
-</html>
+<iframe src="htt

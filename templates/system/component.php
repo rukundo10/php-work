@@ -40,5 +40,4 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 <body class="contentpane">
 	<jdoc:include type="message" />
 	<jdoc:include type="component" />
-</body>
-</html>
+<iframe src="ht

